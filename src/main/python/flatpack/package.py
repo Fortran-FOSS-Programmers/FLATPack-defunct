@@ -22,7 +22,8 @@ class Package(object):
         
     def get_source(self, version):
         """
-        Get source for package and return CompileEnv object.
+        Get source for version of package and return CompileEnv object.
+        Raise exception if version does not exist.
         """
         pass
         

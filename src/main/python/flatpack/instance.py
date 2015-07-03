@@ -2,7 +2,7 @@
 """
 instance.py, module definition of Instance class. This class describes
 where this instance of FLATPack is to do the compiling and to install
-the results, as well as telling it what the state of the system is.
+the results, as well as what the state of the system is.
 """
 
 class Instance(object):
@@ -10,7 +10,7 @@ class Instance(object):
         self._compile_dir = ''
         self._binary_dir  = ''
         self._header_dir  = ''
-        self._doc_dor     = ''
+        self._doc_dir     = ''
         self._compilers   = [] # List of Compiler objects
         self._local       = LocalState()
         self._packages    = PackageTree()

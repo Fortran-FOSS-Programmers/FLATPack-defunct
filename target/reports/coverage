@@ -1,0 +1,23 @@
+Name                                            Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------
+src/main/python/flatpack/__init__                  29     29     0%   2-41
+src/main/python/flatpack/binary                    18     18     0%   2-36
+src/main/python/flatpack/commands/__init__          0      0   100%   
+src/main/python/flatpack/commands/cleanup_cmd       4      4     0%   2-11
+src/main/python/flatpack/commands/compile_cmd       4      4     0%   2-12
+src/main/python/flatpack/commands/help_cmd          4      4     0%   2-11
+src/main/python/flatpack/commands/install_cmd       4      4     0%   2-12
+src/main/python/flatpack/commands/list_cmd          4      4     0%   2-11
+src/main/python/flatpack/commands/remove_cmd        4      4     0%   2-12
+src/main/python/flatpack/commands/search_cmd        4      4     0%   2-12
+src/main/python/flatpack/commands/update_cmd        4      4     0%   2-12
+src/main/python/flatpack/commands/upgrade_cmd       4      4     0%   2-11
+src/main/python/flatpack/compile_env                9      9     0%   2-29
+src/main/python/flatpack/compiler                  12     12     0%   2-28
+src/main/python/flatpack/config_file                4      4     0%   2-10
+src/main/python/flatpack/installer                  8      8     0%   2-21
+src/main/python/flatpack/instance                  18     18     0%   2-41
+src/main/python/flatpack/local_state               15     15     0%   2-38
+src/main/python/flatpack/package                   13     13     0%   2-28
+-----------------------------------------------------------------------------
+TOTAL                                             162    162     0%   

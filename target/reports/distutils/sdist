@@ -1,0 +1,53 @@
+running sdist
+running egg_info
+creating FLATPack.egg-info
+writing requirements to FLATPack.egg-info/requires.txt
+writing FLATPack.egg-info/PKG-INFO
+writing top-level names to FLATPack.egg-info/top_level.txt
+writing dependency_links to FLATPack.egg-info/dependency_links.txt
+writing entry points to FLATPack.egg-info/entry_points.txt
+writing manifest file 'FLATPack.egg-info/SOURCES.txt'
+reading manifest file 'FLATPack.egg-info/SOURCES.txt'
+writing manifest file 'FLATPack.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+creating FLATPack-0.0.1
+creating FLATPack-0.0.1/FLATPack.egg-info
+creating FLATPack-0.0.1/flatpack
+creating FLATPack-0.0.1/flatpack/commands
+creating FLATPack-0.0.1/scripts
+making hard links in FLATPack-0.0.1...
+hard linking setup.py -> FLATPack-0.0.1
+hard linking FLATPack.egg-info/PKG-INFO -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking FLATPack.egg-info/SOURCES.txt -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking FLATPack.egg-info/dependency_links.txt -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking FLATPack.egg-info/entry_points.txt -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking FLATPack.egg-info/requires.txt -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking FLATPack.egg-info/top_level.txt -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking FLATPack.egg-info/zip-safe -> FLATPack-0.0.1/FLATPack.egg-info
+hard linking flatpack/__init__.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/binary.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/compile_env.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/compiler.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/config_file.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/installer.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/instance.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/local_state.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/package.py -> FLATPack-0.0.1/flatpack
+hard linking flatpack/commands/__init__.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/cleanup_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/compile_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/help_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/install_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/list_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/remove_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/search_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/update_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking flatpack/commands/upgrade_cmd.py -> FLATPack-0.0.1/flatpack/commands
+hard linking scripts/flatpack.py -> FLATPack-0.0.1/scripts
+hard linking scripts/flatpack.py~ -> FLATPack-0.0.1/scripts
+Writing FLATPack-0.0.1/setup.cfg
+creating dist
+Creating tar archive
+removing 'FLATPack-0.0.1' (and everything under it)

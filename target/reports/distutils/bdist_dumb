@@ -1,0 +1,103 @@
+running bdist_dumb
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/compiler.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/__init__.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/config_file.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/binary.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/instance.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/local_state.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/compile_env.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/installer.py -> build/lib.linux-x86_64-2.7/flatpack
+copying flatpack/package.py -> build/lib.linux-x86_64-2.7/flatpack
+creating build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/search_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/__init__.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/update_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/remove_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/upgrade_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/help_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/install_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/list_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/cleanup_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+copying flatpack/commands/compile_cmd.py -> build/lib.linux-x86_64-2.7/flatpack/commands
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting scripts/flatpack.py~ -> build/scripts-2.7
+copying and adjusting scripts/flatpack.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/flatpack.py~ from 644 to 755
+changing mode of build/scripts-2.7/flatpack.py from 644 to 755
+installing to build/bdist.linux-x86_64/dumb
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/dumb
+creating build/bdist.linux-x86_64/dumb/home
+creating build/bdist.linux-x86_64/dumb/home/chris
+creating build/bdist.linux-x86_64/dumb/home/chris/Code
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/compiler.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/__init__.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/config_file.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/search_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/__init__.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/update_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/remove_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/upgrade_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/help_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/install_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/list_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/cleanup_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/commands/compile_cmd.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands
+copying build/lib.linux-x86_64-2.7/flatpack/binary.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/instance.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/local_state.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/compile_env.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/installer.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+copying build/lib.linux-x86_64-2.7/flatpack/package.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/compiler.py to compiler.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/config_file.py to config_file.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/search_cmd.py to search_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/update_cmd.py to update_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/remove_cmd.py to remove_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/upgrade_cmd.py to upgrade_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/help_cmd.py to help_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/install_cmd.py to install_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/list_cmd.py to list_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/cleanup_cmd.py to cleanup_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/commands/compile_cmd.py to compile_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/binary.py to binary.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/instance.py to instance.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/local_state.py to local_state.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/compile_env.py to compile_env.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/installer.py to installer.pyc
+byte-compiling build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/flatpack/package.py to package.pyc
+running install_egg_info
+running egg_info
+writing requirements to FLATPack.egg-info/requires.txt
+writing FLATPack.egg-info/PKG-INFO
+writing top-level names to FLATPack.egg-info/top_level.txt
+writing dependency_links to FLATPack.egg-info/dependency_links.txt
+writing entry points to FLATPack.egg-info/entry_points.txt
+reading manifest file 'FLATPack.egg-info/SOURCES.txt'
+writing manifest file 'FLATPack.egg-info/SOURCES.txt'
+Copying FLATPack.egg-info to build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/lib/python2.7/site-packages/FLATPack-0.0.1-py2.7.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/bin
+copying build/scripts-2.7/flatpack.py~ -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/bin
+copying build/scripts-2.7/flatpack.py -> build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/bin
+changing mode of build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/bin/flatpack.py~ to 755
+changing mode of build/bdist.linux-x86_64/dumb/home/chris/Code/flatpack-fork/venv/bin/flatpack.py to 755
+Creating tar archive
+removing 'build/bdist.linux-x86_64/dumb' (and everything under it)

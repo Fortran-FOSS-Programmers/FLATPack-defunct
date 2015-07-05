@@ -4,8 +4,6 @@ package.py, module definition of Package class. This class represents
 individual packages managed by FLATPack.
 """
 
-import libgit2
-
 class Package(object):
     """
     Represents a package which can be installed (or removed) by FLATPack.

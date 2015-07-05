@@ -8,12 +8,36 @@ contain a dictionary mapping compiler names and versions to the
 corresponding object.
 """
 
+# Vendor IDs
+ABSOFT = 1
+CRAY = 2
+G95 = 3
+GNU = 4
+HP = 5
+IBM = 6
+INTEL = 7
+NAG = 8
+ORACLE = 9
+PATHSCALE = 10
+PGI = 11
+
 class Compiler(object):
     
-    def __init__(self,command):
+    def __init__(self,vendor,version,command,activate):
+        self._vendor = vendor
+        self._version = version
         self._command = command
-        self._vendor  = ''
-        self._version = ''
+        self._activate = activate
+    
+    def load(self):
+        """
+        Load the compiler into the path (for example, using GNU
+        Modules).
+        """
+        if self._activate:
+            print('Not yet implemented')
+            exit
+        pass
     
     @property
     def command(self):

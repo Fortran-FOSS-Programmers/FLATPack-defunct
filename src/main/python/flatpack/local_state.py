@@ -6,7 +6,7 @@ local_state.py, module definition of LocalState class.
 class LocalState(object):
     """
     This class contains the information about what is currently
-    installed locally and the records for that which is not.
+    installed locally.
     """
     
     def __init__(self, database, records):

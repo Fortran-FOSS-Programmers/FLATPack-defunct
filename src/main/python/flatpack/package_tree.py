@@ -5,6 +5,8 @@ represents all packages in the database and their dependencies on each
 other.
 """
 
+from flatpack.package import Package
+
 class PackageTree(object):
     def __init__(self,database):
         self._package_list = []

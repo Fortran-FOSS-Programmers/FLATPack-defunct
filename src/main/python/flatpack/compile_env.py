@@ -9,7 +9,7 @@ compilation.
 class CompileEnv(object):
     
     def __init__(self, location, package, version=None):
-        self._location = ''
+        self._location = location
         self._package = package
         # Get various information about the build process
 
@@ -18,6 +18,13 @@ class CompileEnv(object):
         Compile the package, using the specified compiler, if possible.
         If compilation succesful then will return an Installer object.
         Otherwise raises exceptions.
+        """
+        pass
+        
+    def clean(self):
+        """
+        Remove all binary and .mod files. Must be done prior to
+        recompiling.
         """
         pass
         

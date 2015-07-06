@@ -26,10 +26,10 @@ import yaml
 class Compiler(yaml.YAMLObject):
     yaml_tag = '!Compiler'
     def __init__(self,vendor,version,command,activate):
-        self._vendor = vendor
-        self._version = version
-        self._command = command
-        self._activate = activate
+        self.vendor = vendor
+        self.version = version
+        self.command = command
+        self.activate = activate
     
     #~ @property
     #~ def command(self):

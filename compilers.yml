@@ -5,7 +5,7 @@
   command : gfortran
   activate: ""
 - !Compiler
-  vendor: gnu
+  vendor  : gnu
   version : 4.8.7
   command : gfortran4.8
   activate: ""

@@ -21,34 +21,52 @@ ORACLE = 9
 PATHSCALE = 10
 PGI = 11
 
-class Compiler(object):
-    
+import yaml
+
+class Compiler(yaml.YAMLObject):
+    yaml_tag = '!Compiler'
     def __init__(self,vendor,version,command,activate):
         self._vendor = vendor
         self._version = version
         self._command = command
         self._activate = activate
     
+    #~ @property
+    #~ def command(self):
+        #~ return self._command
+    #~ 
+    #~ @property
+    #~ def vendor(self):
+        #~ return self._vendor
+    #~ 
+    #~ @property
+    #~ def version(self):
+        #~ return self._version
+#~ 
+    #~ @property
+    #~ def activate(self):
+        #~ return self._activate
+    
+    
+    def __repr__(self):
+        return "{}(vendor='{}', version='{}', command='{}', "\
+            "activate='{}')".format(self.__class__.__name__, self.vendor,
+                                  self.version, self.command,
+                                  self.activate)
+
     def load(self):
         """
         Load the compiler into the path (for example, using GNU
         Modules).
         """
-        if self._activate:
+        if self.activate:
             print('Not yet implemented')
             exit
         pass
-    
-    @property
-    def command(self):
-        return self._command
-    
-    @property
-    def vendor(self):
-        return self._vendor
-    
-    @property
-    def version(self):
-        return self._version
-    
+        
+if __name__ == '__main__':
+    import yaml
+    src = open('../../../../compilers.yml','r')
+    test = yaml.load(src)
+    print test
     

@@ -1,11 +1,5 @@
----
+--- !Package
 name: json-fortran
-authors:
-  - Jacob Williams
-  - Izaak Beekman
-  - Kevin Manalo
-maintainer: Jacob Williams
-email: ''
 homepage: https://github.com/jacobwilliams/json-fortran
 description: A Fortran 2008 JSON API
 src: https://github.com/jacobwilliams/json-fortran.git
@@ -18,8 +12,18 @@ versions:
   4.1.0: 5bd5153437770c66670942e5498c6e4febdd55eb
   4.1.1: ee21405b782ab606fc3245d7b91126c593f9a2ed
 compilers:
-  gnu>=4.9: cmake; make; make install
-  intel>=13.1.0: cmake --intel; make; make install
-  nag>=6.0: cmake --nag; make; make install
+  gnu>=4.9:
+    configure: cmake
+    build:     make
+    install:   make install
+  intel>=13.1.0:
+    configure: cmake --intel
+    build:     make
+    install:   make install
+  nag>=6.0:
+    configure: cmake --nag
+    build:     make
+    install:   make install
+test: make check
 dependencies: []
 ...

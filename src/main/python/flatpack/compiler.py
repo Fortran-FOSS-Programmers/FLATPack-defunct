@@ -29,24 +29,7 @@ class Compiler(yaml.YAMLObject):
         self.vendor = vendor
         self.version = version
         self.command = command
-        self.activate = activate
-    
-    #~ @property
-    #~ def command(self):
-        #~ return self._command
-    #~ 
-    #~ @property
-    #~ def vendor(self):
-        #~ return self._vendor
-    #~ 
-    #~ @property
-    #~ def version(self):
-        #~ return self._version
-#~ 
-    #~ @property
-    #~ def activate(self):
-        #~ return self._activate
-    
+        self.activate = activate    
     
     def __repr__(self):
         return "{}(vendor='{}', version='{}', command='{}', "\
@@ -63,7 +46,7 @@ class Compiler(yaml.YAMLObject):
             print('Not yet implemented')
             exit
         pass
-        
+
 if __name__ == '__main__':
     import yaml
     src = open('../../../../compilers.yml','r')

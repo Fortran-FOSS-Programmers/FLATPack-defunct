@@ -1,3 +1,10 @@
+**This is the outline of an old attempt ot write a package manage for Fortran.
+It was eventually decided to instead write a set of packages for the existing 
+[spack](https://spack.readthedocs.io/en/latest/) package manager. These packages 
+can be found in their 
+[own repository](https://github.com/Fortran-FOSS-Programmers/FLATPack). This 
+repository is kept as a record of previous work.**
+
 # Fortran Library, Application, and Tool Packaging (FLATPack)
 
 [![Join the chat at https://gitter.im/Fortran-FOSS-Programmers/FLATPack](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Fortran-FOSS-Programmers/FLATPack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

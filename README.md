@@ -7,8 +7,6 @@ repository is kept as a record of previous work.**
 
 # Fortran Library, Application, and Tool Packaging (FLATPack)
 
-[![Join the chat at https://gitter.im/Fortran-FOSS-Programmers/FLATPack](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Fortran-FOSS-Programmers/FLATPack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This is a (proposed) project to write a package manager for Fortran projects.
 This would be similar to `pip`/PyPI, `gem`, or `npm` and would allow
 dependencies to be specified between packages.
